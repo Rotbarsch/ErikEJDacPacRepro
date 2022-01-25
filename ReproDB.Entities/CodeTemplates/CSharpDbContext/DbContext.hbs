@@ -1,0 +1,30 @@
+﻿// <copyright file="{{class}}.cs" company="Carl Zeiss Vision International GmbH">
+//     Copyright (c) Carl Zeiss Vision International GmbH.  All rights reserved.
+//     THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF Carl Zeiss Vision International GmbH.
+//     The copyright notice does not evidence any actual or intended publication.
+// </copyright>
+
+
+{{> dbimports}}
+
+namespace {{namespace}}
+{
+    public partial class {{class}} : DbContext
+    {
+{{{> dbsets}}}
+{{#if entity-type-errors}}
+{{#each entity-type-errors}}
+{{{entity-type-error}}}
+{{/each}}
+
+{{/if}}
+
+{{{> dbconstructor}}}
+
+{{#unless suppress-on-configuring}}
+{{{> dbonconfiguring}}}
+
+{{/unless}}
+{{{on-model-creating}}}
+    }
+}

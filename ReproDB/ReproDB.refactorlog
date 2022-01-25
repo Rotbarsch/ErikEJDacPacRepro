@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="1926aae8-9662-4b1f-8949-09cdf0e44fdc" ChangeDateTime="08/25/2021 10:26:50">
+    <Property Name="ElementName" Value="[bp].[excluded_keys_from_distribution].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[excluded_keys_from_distribution]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Key" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2c968f80-6b6b-41dd-a7fe-1295e7ae725b" ChangeDateTime="08/25/2021 10:27:40">
+    <Property Name="ElementName" Value="[bp].[excluded_keys_from_distribution].[rEASON]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[excluded_keys_from_distribution]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Reason" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38b94271-bc2c-40e3-95df-502d0d89fe11" ChangeDateTime="08/25/2021 10:49:56">
+    <Property Name="ElementName" Value="[bp].[excluded_keys_from_distribution].[Key]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[excluded_keys_from_distribution]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="parameter_type_characteristic" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2fb8f16-7916-4224-b721-41ac66b4d708" ChangeDateTime="09/22/2021 07:30:03">
+    <Property Name="ElementName" Value="[bp].[second_inspection].[master]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[second_inspection]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="partner" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9c10108-9a1d-41c4-88bb-bc484d31d211" ChangeDateTime="09/22/2021 07:30:12">
+    <Property Name="ElementName" Value="[bp].[second_inspection].[creation_date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[second_inspection]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="process" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0920bdaf-6572-4a11-ab7f-a1e1428887aa" ChangeDateTime="09/22/2021 07:30:19">
+    <Property Name="ElementName" Value="[bp].[second_inspection].[created_by]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[second_inspection]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sub_process" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="768eee2f-9c57-46c8-bfe2-d2a9e4a03988" ChangeDateTime="09/22/2021 07:30:22">
+    <Property Name="ElementName" Value="[bp].[second_inspection].[master_category]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[second_inspection]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="text" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0b30e9a-ed6f-4c2b-bf22-960332898a7d" ChangeDateTime="10/08/2021 08:03:32">
+    <Property Name="ElementName" Value="[bp].[parameter_type_characteristic_system_map].[send]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[parameter_type_characteristic_system_map]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sending_condition" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e265db1d-bcb9-4035-922c-26d0130ff834" ChangeDateTime="10/08/2021 08:29:13">
+    <Property Name="ElementName" Value="[bp].[parameter_type_characteristic_system_map].[sending_condition]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[parameter_type_characteristic_system_map]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="broadcast_condition" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="41f00f7e-7f81-4cb0-9fe3-48156133e37a" ChangeDateTime="10/08/2021 08:29:21">
+    <Property Name="ElementName" Value="[bp].[broadcast_condition].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[broadcast_condition]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="broadcast_condition" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d6ccd1a-455e-4ab0-8c4c-2a0d9cbb89cd" ChangeDateTime="10/14/2021 12:55:45">
+    <Property Name="ElementName" Value="[bp].[partner_role_map].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[bp].[partner_role_map]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="local_partner_role" />
+  </Operation>
+</Operations>
