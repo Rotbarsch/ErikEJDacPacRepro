@@ -4,3 +4,7 @@
 
 /.vs
 /ReproDB.Entities/obj/Debug/net6.0
+/ReproDB/bin/Release
+/ReproDB/obj/Release
+/ReproDB.Entities/bin/Debug/net6.0
+/ReproDB.Entities/obj

@@ -66,10 +66,20 @@
     <Folder Include="mat\Security\Schemas" />
     <Folder Include="mat\Tables" />
     <Folder Include="mat\Views" />
+    <Folder Include="mat2" />
+    <Folder Include="mat2\Programmability" />
+    <Folder Include="mat2\Programmability\Sequences" />
+    <Folder Include="mat2\Programmability\Stored_Procedures" />
+    <Folder Include="mat2\Security" />
+    <Folder Include="mat2\Security\Schemas" />
+    <Folder Include="mat2\Tables" />
+    <Folder Include="mat2\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="mat\Security\Schemas\mat.sql" />
     <Build Include="mat\Tables\language.sql" />
+    <Build Include="mat2\Security\Schemas\mat2.sql" />
+    <Build Include="mat2\Tables\language.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ReproDB.refactorlog" />
